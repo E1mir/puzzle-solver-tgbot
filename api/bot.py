@@ -5,7 +5,7 @@ from aiogram.types import Message, ContentType, FSInputFile
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
-from image_processor import solve_puzzle
+from .image_processor import solve_puzzle
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = Bot(token=BOT_TOKEN)
